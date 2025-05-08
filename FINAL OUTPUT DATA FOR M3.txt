@@ -1,0 +1,606 @@
+Cache Simulator - CS 3853 - Team #003
+
+Trace File(s):
+        A-10_new_1.5_a.pdf.trc
+        A-9_new_1.5.pdf.trc
+        A-9_new_trunk2.trc
+
+***** Cache Input Parameters *****
+
+Cache Size:                     512 KB
+Block Size:                     16 bytes
+Associativity:                  4
+Replacement Policy:             Round Robin
+Physical Memory:                128 MB
+Percent Memory Used by System:  95.0%
+Instructions / Time Slice:      100
+
+***** Cache Calculated Values *****
+
+Total # Blocks:                 32768
+Tag Size:                       10 bits
+Index Size:                     13 bits
+Total # Rows:                   8192
+Overhead Size:                  45056 bytes
+Implementation Memory Size:     556.00 KB  (569344 bytes)
+Cost:                           $66.72 @ $0.12 per KB
+
+***** Physical Memory Calculated Values *****
+
+Number of Physical Pages:       32768
+Number of Pages for System:     31129
+Size of Page Table Entry:       16 bits
+Total RAM for Page Table(s):    3145728 bytes
+
+***** VIRTUAL MEMORY SIMULATION RESULTS *****
+
+Physical Pages Used By SYSTEM:  31130  
+Pages Available to User:         1638
+
+Virtual Pages Mapped:          1237367
+        ------------------------------
+        Page Table Hits:       1235793 
+        Pages from Free:         1574 
+        Total Page Faults:          0 
+
+Page Table Usage Per Process:
+------------------------------
+[0] A-10_new_1.5_a.pdf.trc:
+    Used Page Table Entries:    566  (0.11%)
+    Page Table Wasted:       4189776 bytes
+
+[1] A-9_new_1.5.pdf.trc:
+    Used Page Table Entries:    670  (0.13%)
+    Page Table Wasted:       4188944 bytes
+
+[2] A-9_new_trunk2.trc:
+    Used Page Table Entries:    338  (0.06%)
+    Page Table Wasted:       4191600 bytes
+
+***** CACHE SIMULATION RESULTS *****
+
+Total Cache Accesses:   1367471
+--- Instruction Bytes: 2576632
+--- SrcDst Bytes:      1239336
+Cache Hits:             1341869
+Cache Misses:           25602
+--- Compulsory Misses:  22798
+--- Conflict Misses:    2804
+***** *****  CACHE HIT & MISS RATE:  ***** *****
+
+Hit  Rate:           98.12778479%  
+Miss Rate:               1.8722%  
+CPI:                    2.2457 Cycles/Instruction  (4165881) 
+Unused Cache Space:    155.78 KB / 556.00 KB = 28.02%  Waste: $18.69/chip
+~/code for m3$ ./run_example.sh
+make: Nothing to be done for 'all'.
+Cache Simulator - CS 3853 - Team #003
+
+Trace File(s):
+        A-10_new_1.5_a.pdf.trc
+        A-9_new_1.5.pdf.trc
+        A-9_new_trunk2.trc
+
+***** Cache Input Parameters *****
+
+Cache Size:                     512 KB
+Block Size:                     16 bytes
+Associativity:                  4
+Replacement Policy:             Round Robin
+Physical Memory:                128 MB
+Percent Memory Used by System:  95.0%
+Instructions / Time Slice:      100
+
+***** Cache Calculated Values *****
+
+Total # Blocks:                 32768
+Tag Size:                       10 bits
+Index Size:                     13 bits
+Total # Rows:                   8192
+Overhead Size:                  45056 bytes
+Implementation Memory Size:     556.00 KB  (569344 bytes)
+Cost:                           $66.72 @ $0.12 per KB
+
+***** Physical Memory Calculated Values *****
+
+Number of Physical Pages:       32768
+Number of Pages for System:     31129
+Size of Page Table Entry:       16 bits
+Total RAM for Page Table(s):    3145728 bytes
+
+***** VIRTUAL MEMORY SIMULATION RESULTS *****
+
+Physical Pages Used By SYSTEM:  31130  
+Pages Available to User:         1638
+
+Virtual Pages Mapped:          1237367
+        ------------------------------
+        Page Table Hits:       1235793 
+        Pages from Free:         1574 
+        Total Page Faults:          0 
+
+Page Table Usage Per Process:
+------------------------------
+[0] A-10_new_1.5_a.pdf.trc:
+    Used Page Table Entries:    566  (0.11%)
+    Page Table Wasted:       4189776 bytes
+
+[1] A-9_new_1.5.pdf.trc:
+    Used Page Table Entries:    670  (0.13%)
+    Page Table Wasted:       4188944 bytes
+
+[2] A-9_new_trunk2.trc:
+    Used Page Table Entries:    338  (0.06%)
+    Page Table Wasted:       4191600 bytes
+
+***** CACHE SIMULATION RESULTS *****
+
+Total Cache Accesses:   1367471
+--- Instruction Bytes: 2576632
+--- SrcDst Bytes:      1239336
+Cache Hits:             1341880
+Cache Misses:           25591
+--- Compulsory Misses:  22798
+--- Conflict Misses:    2793
+***** *****  CACHE HIT & MISS RATE:  ***** *****
+
+Hit  Rate:           98.12858920%  
+Miss Rate:               1.8714%  
+CPI:                    2.2456 Cycles/Instruction  (4165716) 
+Unused Cache Space:    155.78 KB / 556.00 KB = 28.02%  Waste: $18.69/chip
+~/code for m3$ ./run_example.sh
+make: Nothing to be done for 'all'.
+Cache Simulator - CS 3853 - Team #003
+
+Trace File(s):
+        A-10_new_1.5_a.pdf.trc
+        A-9_new_1.5.pdf.trc
+        A-9_new_trunk2.trc
+
+***** Cache Input Parameters *****
+
+Cache Size:                     4096 KB
+Block Size:                     8 bytes
+Associativity:                  8
+Replacement Policy:             Round Robin
+Physical Memory:                256 MB
+Percent Memory Used by System:  80.0%
+Instructions / Time Slice:      100
+
+***** Cache Calculated Values *****
+
+Total # Blocks:                 524288
+Tag Size:                       9 bits
+Index Size:                     16 bits
+Total # Rows:                   65536
+Overhead Size:                  655360 bytes
+Implementation Memory Size:     4736.00 KB  (4849664 bytes)
+Cost:                           $568.32 @ $0.12 per KB
+
+***** Physical Memory Calculated Values *****
+
+Number of Physical Pages:       65536
+Number of Pages for System:     52428
+Size of Page Table Entry:       17 bits
+Total RAM for Page Table(s):    3342336 bytes
+
+***** VIRTUAL MEMORY SIMULATION RESULTS *****
+
+Physical Pages Used By SYSTEM:  52429  
+Pages Available to User:        13107
+
+Virtual Pages Mapped:          1237367
+        ------------------------------
+        Page Table Hits:       1235793 
+        Pages from Free:         1574 
+        Total Page Faults:          0 
+
+Page Table Usage Per Process:
+------------------------------
+[0] A-10_new_1.5_a.pdf.trc:
+    Used Page Table Entries:    566  (0.11%)
+    Page Table Wasted:       4189776 bytes
+
+[1] A-9_new_1.5.pdf.trc:
+    Used Page Table Entries:    670  (0.13%)
+    Page Table Wasted:       4188944 bytes
+
+[2] A-9_new_trunk2.trc:
+    Used Page Table Entries:    338  (0.06%)
+    Page Table Wasted:       4191600 bytes
+
+***** CACHE SIMULATION RESULTS *****
+
+Total Cache Accesses:   1488107
+--- Instruction Bytes: 2576632
+--- SrcDst Bytes:      1239336
+Cache Hits:             1445036
+Cache Misses:           43071
+--- Compulsory Misses:  43071
+--- Conflict Misses:    0
+***** *****  CACHE HIT & MISS RATE:  ***** *****
+
+Hit  Rate:           97.10565168%  
+Miss Rate:               2.8943%  
+CPI:                    2.3896 Cycles/Instruction  (4432809) 
+Unused Cache Space:   3759.51 KB / 4736.00 KB = 79.38%  Waste: $451.14/chip
+~/code for m3$ ./run_example.sh
+make: Nothing to be done for 'all'.
+Cache Simulator - CS 3853 - Team #003
+
+Trace File(s):
+        A-10_new_1.5_a.pdf.trc
+        A-9_new_1.5.pdf.trc
+        A-9_new_trunk2.trc
+
+***** Cache Input Parameters *****
+
+Cache Size:                     4096 KB
+Block Size:                     16 bytes
+Associativity:                  16
+Replacement Policy:             Random
+Physical Memory:                256 MB
+Percent Memory Used by System:  75.0%
+Instructions / Time Slice:      100
+
+***** Cache Calculated Values *****
+
+Total # Blocks:                 262144
+Tag Size:                       10 bits
+Index Size:                     14 bits
+Total # Rows:                   16384
+Overhead Size:                  360448 bytes
+Implementation Memory Size:     4448.00 KB  (4554752 bytes)
+Cost:                           $533.76 @ $0.12 per KB
+
+***** Physical Memory Calculated Values *****
+
+Number of Physical Pages:       65536
+Number of Pages for System:     49152
+Size of Page Table Entry:       17 bits
+Total RAM for Page Table(s):    3342336 bytes
+
+***** VIRTUAL MEMORY SIMULATION RESULTS *****
+
+Physical Pages Used By SYSTEM:  49152  
+Pages Available to User:        16384
+
+Virtual Pages Mapped:          1237367
+        ------------------------------
+        Page Table Hits:       1235793 
+        Pages from Free:         1574 
+        Total Page Faults:          0 
+
+Page Table Usage Per Process:
+------------------------------
+[0] A-10_new_1.5_a.pdf.trc:
+    Used Page Table Entries:    566  (0.11%)
+    Page Table Wasted:       4189776 bytes
+
+[1] A-9_new_1.5.pdf.trc:
+    Used Page Table Entries:    670  (0.13%)
+    Page Table Wasted:       4188944 bytes
+
+[2] A-9_new_trunk2.trc:
+    Used Page Table Entries:    338  (0.06%)
+    Page Table Wasted:       4191600 bytes
+
+***** CACHE SIMULATION RESULTS *****
+
+Total Cache Accesses:   1367471
+--- Instruction Bytes: 2576632
+--- SrcDst Bytes:      1239336
+Cache Hits:             1342003
+Cache Misses:           25468
+--- Compulsory Misses:  25468
+--- Conflict Misses:    0
+***** *****  CACHE HIT & MISS RATE:  ***** *****
+
+Hit  Rate:           98.13758390%  
+Miss Rate:               1.8624%  
+CPI:                    2.2446 Cycles/Instruction  (4163871) 
+Unused Cache Space:   3698.06 KB / 4448.00 KB = 83.14%  Waste: $443.77/chip
+~/code for m3$ ./run_example.sh
+make: Nothing to be done for 'all'.
+Cache Simulator - CS 3853 - Team #003
+
+Trace File(s):
+        A-10_new_1.5_a.pdf.trc
+        A-9_new_1.5.pdf.trc
+        A-9_new_trunk2.trc
+
+***** Cache Input Parameters *****
+
+Cache Size:                     512 KB
+Block Size:                     16 bytes
+Associativity:                  2
+Replacement Policy:             Round Robin
+Physical Memory:                128 MB
+Percent Memory Used by System:  90.0%
+Instructions / Time Slice:      100
+
+***** Cache Calculated Values *****
+
+Total # Blocks:                 32768
+Tag Size:                       9 bits
+Index Size:                     14 bits
+Total # Rows:                   16384
+Overhead Size:                  40960 bytes
+Implementation Memory Size:     552.00 KB  (565248 bytes)
+Cost:                           $66.24 @ $0.12 per KB
+
+***** Physical Memory Calculated Values *****
+
+Number of Physical Pages:       32768
+Number of Pages for System:     29491
+Size of Page Table Entry:       16 bits
+Total RAM for Page Table(s):    3145728 bytes
+
+***** VIRTUAL MEMORY SIMULATION RESULTS *****
+
+Physical Pages Used By SYSTEM:  29491  
+Pages Available to User:         3277
+
+Virtual Pages Mapped:          1237367
+        ------------------------------
+        Page Table Hits:       1235793 
+        Pages from Free:         1574 
+        Total Page Faults:          0 
+
+Page Table Usage Per Process:
+------------------------------
+[0] A-10_new_1.5_a.pdf.trc:
+    Used Page Table Entries:    566  (0.11%)
+    Page Table Wasted:       4189776 bytes
+
+[1] A-9_new_1.5.pdf.trc:
+    Used Page Table Entries:    670  (0.13%)
+    Page Table Wasted:       4188944 bytes
+
+[2] A-9_new_trunk2.trc:
+    Used Page Table Entries:    338  (0.06%)
+    Page Table Wasted:       4191600 bytes
+
+***** CACHE SIMULATION RESULTS *****
+
+Total Cache Accesses:   1367471
+--- Instruction Bytes: 2576632
+--- SrcDst Bytes:      1239336
+Cache Hits:             1341651
+Cache Misses:           25820
+--- Compulsory Misses:  20546
+--- Conflict Misses:    5274
+***** *****  CACHE HIT & MISS RATE:  ***** *****
+
+Hit  Rate:           98.11184296%  
+Miss Rate:               1.8882%  
+CPI:                    2.2474 Cycles/Instruction  (4169151) 
+Unused Cache Space:    190.97 KB / 552.00 KB = 34.60%  Waste: $22.92/chip
+~/code for m3$ ./run_example.sh
+make: Nothing to be done for 'all'.
+Cache Simulator - CS 3853 - Team #003
+
+Trace File(s):
+        A-10_new_1.5_a.pdf.trc
+        A-9_new_1.5.pdf.trc
+        A-9_new_trunk2.trc
+
+***** Cache Input Parameters *****
+
+Cache Size:                     256 KB
+Block Size:                     8 bytes
+Associativity:                  4
+Replacement Policy:             Random
+Physical Memory:                128 MB
+Percent Memory Used by System:  85.0%
+Instructions / Time Slice:      100
+
+***** Cache Calculated Values *****
+
+Total # Blocks:                 32768
+Tag Size:                       11 bits
+Index Size:                     13 bits
+Total # Rows:                   8192
+Overhead Size:                  49152 bytes
+Implementation Memory Size:     304.00 KB  (311296 bytes)
+Cost:                           $36.48 @ $0.12 per KB
+
+***** Physical Memory Calculated Values *****
+
+Number of Physical Pages:       32768
+Number of Pages for System:     27852
+Size of Page Table Entry:       16 bits
+Total RAM for Page Table(s):    3145728 bytes
+
+***** VIRTUAL MEMORY SIMULATION RESULTS *****
+
+Physical Pages Used By SYSTEM:  27853  
+Pages Available to User:         4915
+
+Virtual Pages Mapped:          1237367
+        ------------------------------
+        Page Table Hits:       1235793 
+        Pages from Free:         1574 
+        Total Page Faults:          0 
+
+Page Table Usage Per Process:
+------------------------------
+[0] A-10_new_1.5_a.pdf.trc:
+    Used Page Table Entries:    566  (0.11%)
+    Page Table Wasted:       4189776 bytes
+
+[1] A-9_new_1.5.pdf.trc:
+    Used Page Table Entries:    670  (0.13%)
+    Page Table Wasted:       4188944 bytes
+
+[2] A-9_new_trunk2.trc:
+    Used Page Table Entries:    338  (0.06%)
+    Page Table Wasted:       4191600 bytes
+
+***** CACHE SIMULATION RESULTS *****
+
+Total Cache Accesses:   1488107
+--- Instruction Bytes: 2576632
+--- SrcDst Bytes:      1239336
+Cache Hits:             1444188
+Cache Misses:           43919
+--- Compulsory Misses:  29857
+--- Conflict Misses:    14062
+***** *****  CACHE HIT & MISS RATE:  ***** *****
+
+Hit  Rate:           97.04866653%  
+Miss Rate:               2.9513%  
+CPI:                    2.3928 Cycles/Instruction  (4438745) 
+Unused Cache Space:     22.74 KB / 304.00 KB =  7.48%  Waste: $2.73/chip
+~/code for m3$ ./run_example.sh
+make: Nothing to be done for 'all'.
+Cache Simulator - CS 3853 - Team #003
+
+Trace File(s):
+        A-10_new_1.5_a.pdf.trc
+        A-9_new_1.5.pdf.trc
+        A-9_new_trunk2.trc
+
+***** Cache Input Parameters *****
+
+Cache Size:                     1024 KB
+Block Size:                     8 bytes
+Associativity:                  8
+Replacement Policy:             Round Robin
+Physical Memory:                128 MB
+Percent Memory Used by System:  80.0%
+Instructions / Time Slice:      100
+
+***** Cache Calculated Values *****
+
+Total # Blocks:                 131072
+Tag Size:                       10 bits
+Index Size:                     14 bits
+Total # Rows:                   16384
+Overhead Size:                  180224 bytes
+Implementation Memory Size:     1200.00 KB  (1228800 bytes)
+Cost:                           $144.00 @ $0.12 per KB
+
+***** Physical Memory Calculated Values *****
+
+Number of Physical Pages:       32768
+Number of Pages for System:     26214
+Size of Page Table Entry:       16 bits
+Total RAM for Page Table(s):    3145728 bytes
+
+***** VIRTUAL MEMORY SIMULATION RESULTS *****
+
+Physical Pages Used By SYSTEM:  26214  
+Pages Available to User:         6554
+
+Virtual Pages Mapped:          1237367
+        ------------------------------
+        Page Table Hits:       1235793 
+        Pages from Free:         1574 
+        Total Page Faults:          0 
+
+Page Table Usage Per Process:
+------------------------------
+[0] A-10_new_1.5_a.pdf.trc:
+    Used Page Table Entries:    566  (0.11%)
+    Page Table Wasted:       4189776 bytes
+
+[1] A-9_new_1.5.pdf.trc:
+    Used Page Table Entries:    670  (0.13%)
+    Page Table Wasted:       4188944 bytes
+
+[2] A-9_new_trunk2.trc:
+    Used Page Table Entries:    338  (0.06%)
+    Page Table Wasted:       4191600 bytes
+
+***** CACHE SIMULATION RESULTS *****
+
+Total Cache Accesses:   1488107
+--- Instruction Bytes: 2576632
+--- SrcDst Bytes:      1239336
+Cache Hits:             1445036
+Cache Misses:           43071
+--- Compulsory Misses:  43055
+--- Conflict Misses:    16
+***** *****  CACHE HIT & MISS RATE:  ***** *****
+
+Hit  Rate:           97.10565168%  
+Miss Rate:               2.8943%  
+CPI:                    2.3896 Cycles/Instruction  (4432809) 
+Unused Cache Space:    687.63 KB / 1200.00 KB = 57.30%  Waste: $82.52/chip
+~/code for m3$ ./run_example.sh
+make: Nothing to be done for 'all'.
+Cache Simulator - CS 3853 - Team #003
+
+Trace File(s):
+        A-10_new_1.5_a.pdf.trc
+        A-9_new_1.5.pdf.trc
+        A-9_new_trunk2.trc
+
+***** Cache Input Parameters *****
+
+Cache Size:                     1024 KB
+Block Size:                     16 bytes
+Associativity:                  16
+Replacement Policy:             Random
+Physical Memory:                128 MB
+Percent Memory Used by System:  75.0%
+Instructions / Time Slice:      100
+
+***** Cache Calculated Values *****
+
+Total # Blocks:                 65536
+Tag Size:                       11 bits
+Index Size:                     12 bits
+Total # Rows:                   4096
+Overhead Size:                  98304 bytes
+Implementation Memory Size:     1120.00 KB  (1146880 bytes)
+Cost:                           $134.40 @ $0.12 per KB
+
+***** Physical Memory Calculated Values *****
+
+Number of Physical Pages:       32768
+Number of Pages for System:     24576
+Size of Page Table Entry:       16 bits
+Total RAM for Page Table(s):    3145728 bytes
+
+***** VIRTUAL MEMORY SIMULATION RESULTS *****
+
+Physical Pages Used By SYSTEM:  24576  
+Pages Available to User:         8192
+
+Virtual Pages Mapped:          1237367
+        ------------------------------
+        Page Table Hits:       1235793 
+        Pages from Free:         1574 
+        Total Page Faults:          0 
+
+Page Table Usage Per Process:
+------------------------------
+[0] A-10_new_1.5_a.pdf.trc:
+    Used Page Table Entries:    566  (0.11%)
+    Page Table Wasted:       4189776 bytes
+
+[1] A-9_new_1.5.pdf.trc:
+    Used Page Table Entries:    670  (0.13%)
+    Page Table Wasted:       4188944 bytes
+
+[2] A-9_new_trunk2.trc:
+    Used Page Table Entries:    338  (0.06%)
+    Page Table Wasted:       4191600 bytes
+
+***** CACHE SIMULATION RESULTS *****
+
+Total Cache Accesses:   1367471
+--- Instruction Bytes: 2576632
+--- SrcDst Bytes:      1239336
+Cache Hits:             1342003
+Cache Misses:           25468
+--- Compulsory Misses:  25466
+--- Conflict Misses:    2
+***** *****  CACHE HIT & MISS RATE:  ***** *****
+
+Hit  Rate:           98.13758390%  
+Miss Rate:               1.8624%  
+CPI:                    2.2446 Cycles/Instruction  (4163871) 
+Unused Cache Space:    626.09 KB / 1120.00 KB = 55.90%  Waste: $75.13/chip
