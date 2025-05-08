@@ -1,0 +1,74 @@
+Cache Simulator - CS 3853 - Team #003
+
+Trace File(s):
+        A-10_new_1.5_a.pdf.trc
+        A-9_new_1.5.pdf.trc
+        A-9_new_trunk2.trc
+
+***** Cache Input Parameters *****
+
+Cache Size:                     16 KB
+Block Size:                     16 bytes
+Associativity:                  1
+Replacement Policy:             Round Robin
+Physical Memory:                256 MB
+Percent Memory Used by System:  95.0%
+Instructions / Time Slice:      100
+
+***** Cache Calculated Values *****
+
+Total # Blocks:                 1024
+Tag Size:                       14 bits
+Index Size:                     10 bits
+Total # Rows:                   1024
+Overhead Size:                  1920 bytes
+Implementation Memory Size:     17.88 KB  (18304 bytes)
+Cost:                           $2.15 @ $0.12 per KB
+
+***** Physical Memory Calculated Values *****
+
+Number of Physical Pages:       65536
+Number of Pages for System:     62259
+Size of Page Table Entry:       17 bits
+Total RAM for Page Table(s):    3342336 bytes
+
+***** VIRTUAL MEMORY SIMULATION RESULTS *****
+
+Physical Pages Used By SYSTEM:  62259  
+Pages Available to User:         3277
+
+Virtual Pages Mapped:          1237367
+        ------------------------------
+        Page Table Hits:       1235793 
+        Pages from Free:         1574 
+        Total Page Faults:          0 
+
+Page Table Usage Per Process:
+------------------------------
+[0] A-10_new_1.5_a.pdf.trc:
+    Used Page Table Entries:    566  (0.11%)
+    Page Table Wasted:       4189776 bytes
+
+[1] A-9_new_1.5.pdf.trc:
+    Used Page Table Entries:    670  (0.13%)
+    Page Table Wasted:       4188944 bytes
+
+[2] A-9_new_trunk2.trc:
+    Used Page Table Entries:    338  (0.06%)
+    Page Table Wasted:       4191600 bytes
+
+***** CACHE SIMULATION RESULTS *****
+
+Total Cache Accesses:   1367471
+--- Instruction Bytes: 2576632
+--- SrcDst Bytes:      1239336
+Cache Hits:             1310802
+Cache Misses:           56669
+--- Compulsory Misses:  1024
+--- Conflict Misses:    55645
+***** *****  CACHE HIT & MISS RATE:  ***** *****
+
+Hit  Rate:           95.85592674%  
+Miss Rate:               4.1441%  
+CPI:                    2.4969 Cycles/Instruction  (4631886) 
+Unused Cache Space:      0.00 KB /  17.88 KB =  0.00%  Waste: $0.00/chip

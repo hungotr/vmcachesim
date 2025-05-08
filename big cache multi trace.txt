@@ -1,0 +1,74 @@
+Cache Simulator - CS 3853 - Team #003
+
+Trace File(s):
+        A-10_new_1.5_a.pdf.trc
+        A-9_new_1.5.pdf.trc
+        A-9_new_trunk2.trc
+
+***** Cache Input Parameters *****
+
+Cache Size:                     4096 KB
+Block Size:                     64 bytes
+Associativity:                  4
+Replacement Policy:             Round Robin
+Physical Memory:                4096 MB
+Percent Memory Used by System:  90.0%
+Instructions / Time Slice:      75
+
+***** Cache Calculated Values *****
+
+Total # Blocks:                 65536
+Tag Size:                       -2147483648 bits
+Index Size:                     14 bits
+Total # Rows:                   16384
+Overhead Size:                  8192 bytes
+Implementation Memory Size:     4104.00 KB  (4202496 bytes)
+Cost:                           $492.48 @ $0.12 per KB
+
+***** Physical Memory Calculated Values *****
+
+Number of Physical Pages:       1048576
+Number of Pages for System:     943718
+Size of Page Table Entry:       21 bits
+Total RAM for Page Table(s):    4128768 bytes
+
+***** VIRTUAL MEMORY SIMULATION RESULTS *****
+
+Physical Pages Used By SYSTEM: 943718  
+Pages Available to User:       104858
+
+Virtual Pages Mapped:          1237367
+        ------------------------------
+        Page Table Hits:       1235793 
+        Pages from Free:         1574 
+        Total Page Faults:          0 
+
+Page Table Usage Per Process:
+------------------------------
+[0] A-10_new_1.5_a.pdf.trc:
+    Used Page Table Entries:    566  (0.11%)
+    Page Table Wasted:       4189776 bytes
+
+[1] A-9_new_1.5.pdf.trc:
+    Used Page Table Entries:    670  (0.13%)
+    Page Table Wasted:       4188944 bytes
+
+[2] A-9_new_trunk2.trc:
+    Used Page Table Entries:    338  (0.06%)
+    Page Table Wasted:       4191600 bytes
+
+***** CACHE SIMULATION RESULTS *****
+
+Total Cache Accesses:   1290575
+--- Instruction Bytes: 2576632
+--- SrcDst Bytes:      1239336
+Cache Hits:             1280565
+Cache Misses:           10010
+--- Compulsory Misses:  10010
+--- Conflict Misses:    0
+***** *****  CACHE HIT & MISS RATE:  ***** *****
+
+Hit  Rate:           99.22437673%  
+Miss Rate:               0.7756%  
+CPI:                    2.2589 Cycles/Instruction  (4190421) 
+Unused Cache Space:   3470.38 KB / 4104.00 KB = 84.56%  Waste: $416.44/chip
