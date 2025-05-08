@@ -12,30 +12,30 @@ Block Size:                     64 bytes
 Associativity:                  4
 Replacement Policy:             Round Robin
 Physical Memory:                4096 MB
-Percent Memory Used by System:  90.0%
-Instructions / Time Slice:      75
+Percent Memory Used by System:  75.0%
+Instructions / Time Slice:      100
 
 ***** Cache Calculated Values *****
 
 Total # Blocks:                 65536
-Tag Size:                       -2147483648 bits
+Tag Size:                       12 bits
 Index Size:                     14 bits
 Total # Rows:                   16384
-Overhead Size:                  8192 bytes
-Implementation Memory Size:     4104.00 KB  (4202496 bytes)
-Cost:                           $492.48 @ $0.12 per KB
+Overhead Size:                  106496 bytes
+Implementation Memory Size:     4200.00 KB  (4300800 bytes)
+Cost:                           $504.00 @ $0.12 per KB
 
 ***** Physical Memory Calculated Values *****
 
 Number of Physical Pages:       1048576
-Number of Pages for System:     943718
+Number of Pages for System:     786432
 Size of Page Table Entry:       21 bits
 Total RAM for Page Table(s):    4128768 bytes
 
 ***** VIRTUAL MEMORY SIMULATION RESULTS *****
 
-Physical Pages Used By SYSTEM: 943718  
-Pages Available to User:       104858
+Physical Pages Used By SYSTEM: 786432  
+Pages Available to User:       262144
 
 Virtual Pages Mapped:          1237367
         ------------------------------
@@ -71,4 +71,4 @@ Cache Misses:           10010
 Hit  Rate:           99.22437673%  
 Miss Rate:               0.7756%  
 CPI:                    2.2589 Cycles/Instruction  (4190421) 
-Unused Cache Space:   3470.38 KB / 4104.00 KB = 84.56%  Waste: $416.44/chip
+Unused Cache Space:   3470.38 KB / 4200.00 KB = 82.63%  Waste: $416.44/chip
